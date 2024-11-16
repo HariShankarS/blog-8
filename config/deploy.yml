@@ -2,7 +2,7 @@
 service: blog
 
 # Name of the container image.
-image: harishankars/blog:latest
+image: harishankars/blog
 
 # Deploy to these servers.
 servers:
