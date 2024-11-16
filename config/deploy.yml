@@ -8,6 +8,11 @@ image: harishankars/blog:latest
 servers:
   web:
     - 34.234.26.163
+
+ssh:
+  user: ubuntu # Specify the correct user for your EC2 instance
+  keys:
+    - ~/.ssh/ec2-16-nov.pem # Path to your EC2 private key
   # job:
   #   hosts:
   #     - 192.168.0.1
